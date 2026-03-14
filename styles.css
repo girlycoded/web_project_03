@@ -1,0 +1,31 @@
+/* .message-input {
+	position: fixed;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+} */
+
+.messaging-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	overflow-y: scroll;
+}
+
+.message {
+	font-size: 48px;
+}
+
+.message-input {
+	height: 48px;
+}
+
+body {
+	margin: 0;
+}
